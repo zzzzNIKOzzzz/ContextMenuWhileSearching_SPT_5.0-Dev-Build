@@ -45,6 +45,12 @@ BepInEx 6.0.0-be.788+ (IL2CPP)
 
 Полученный .dll разместите в \\EscapeFromTarkov5.0\BepInEx\plugins.
 
+## Благодарности
+
+- **SPT team** — за сам проект.
+- **BepInEx / HarmonyX / Il2CppInterop** — за инфраструктуру, на которой всё держится.
+- Сообществу SPT-модеров — за то, что документация и примеры вообще существуют.
+
 ## Автор:
 zzzNIKOzzz
 
