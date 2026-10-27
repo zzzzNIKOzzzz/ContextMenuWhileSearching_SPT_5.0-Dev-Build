@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace ContextMenuWhileSearching;
 
-[BepInPlugin("com.zzzNIKOzzz.contextmenuwhilesearching", "ContextMenuWhileSearching", "1.0.0")]
+[BepInPlugin("zzzNIKOzzz.contextmenuwhilesearching", "ContextMenuWhileSearching", "1.0.0")]
 public class Plugin : BasePlugin
 {
     public static ConfigEntry<bool> Enabled = null!;
@@ -19,12 +19,12 @@ public class Plugin : BasePlugin
     {
         Logger = Log;
         Logger.LogInfo("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
-        Logger.LogInfo("ContextMenuWhileSearching by zzzNIKOzzz is loading... ... ... ... ... ... ... ...");
+        Logger.LogInfo("_______________ContextMenuWhileSearching от zzzNIKOzzz загружается_______________");
         Logger.LogInfo("zzzNIKOzzz: Невозможно открыть контекстное меню во время поиска? Ой, да не пизди)");
         Logger.LogInfo("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
 
         Enabled = Config.Bind("General", "Enable", true, "Allow context menu while searching containers");
-        new Harmony("com.zzzNIKOzzz.contextmenuwhilesearching").PatchAll();
+        new Harmony("zzzNIKOzzz.contextmenuwhilesearching").PatchAll();
     }
 }
 
